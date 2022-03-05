@@ -22,27 +22,51 @@ function Projects() {
             <div className="container">
                 <div className="item">
                     <img src={beyond} alt="Beyond the Peak" />
-                    <h3>Beyond the Peak</h3>  
+                    <div className="text">
+                        <h3>Beyond the Peak</h3>  
+                        <a href="https://pacific-journey-17528.herokuapp.com/" target="_blank">Website</a>
+                        <a href="https://github.com/glanctot/beyond-the-peak" target="_blank">GitHub</a>
+                    </div>  
                 </div>
                 <div className="item">
                     <img src={budget} alt="Budget Tracker" />
-                    <h3>Budget Tracker</h3>  
+                    <div className="text">
+                        <h3>Budget Tracker</h3>  
+                        <a href="https://lit-dawn-92675.herokuapp.com/" target="_blank">Website</a>
+                        <a href="https://github.com/glanctot/budget-tracker" target="_blank">GitHub</a>
+                    </div>  
                 </div>
                 <div className="item">
                     <img src={weather} alt="Weather Dashboard" />
-                    <h3>Weather Dashboard</h3>  
+                    <div className="text">
+                        <h3>Weather Dashboard</h3>  
+                        <a href="https://glanctot.github.io/weather-dashboard/" target="_blank">Website</a>
+                        <a href="https://github.com/glanctot/weather-dashboard" target="_blank">GitHub</a>
+                    </div> 
                 </div>
                 <div className="item">
                     <img src={run} alt="Run Buddy" />
-                    <h3>Run Buddy</h3>  
+                    <div className="text">
+                        <h3>Run Buddy</h3>  
+                        <a href="https://glanctot.github.io/run-buddy/" target="_blank">Website</a>
+                        <a href="https://github.com/glanctot/run-buddy" target="_blank">GitHub</a>
+                    </div>   
                 </div>
                 <div className="item">
                     <img src={tech} alt="Tech Blog" />
-                    <h3>Tech Blog</h3>  
+                    <div className="text">
+                        <h3>Tech Blog</h3>  
+                        <a href="https://nameless-savannah-39271.herokuapp.com/" target="_blank">Website</a>
+                        <a href="https://github.com/glanctot/tech-blog" target="_blank">GitHub</a>
+                    </div>   
                 </div>
                 <div className="item">
                     <img src={password} alt="Password Generator" />
-                    <h3>Password Generator</h3>  
+                    <div className="text">
+                        <h3>Password Generator</h3>  
+                        <a href="https://glanctot.github.io/password-generator/">Website</a>
+                        <a href="https://github.com/glanctot/password-generator">GitHub</a>
+                    </div>
                 </div>    
             </div>
         </div>
