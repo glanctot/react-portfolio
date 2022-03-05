@@ -8,24 +8,24 @@ function Nav() {
         <div className="header">
             <div className="wrapper">
                 <nav>
-                        <a href="/">g.lanctot</a>
-                        <ul>
-                            <li>
-                                <Link to="/">Home</Link>
-                            </li>
-                            <li>
-                                <Link to="/about">About</Link>
-                            </li>
-                            <li>
-                                <Link to="/projects">Projects</Link>
-                            </li>
-                            <li>
-                                <Link to="/contact">Contact</Link>
-                            </li>
-                            <li>
-                                <Link to="/resume">Resume</Link>
-                            </li>
-                        </ul>
+                    <a href="/">g.lanctot</a>
+                    <ul>
+                        <li>
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li>
+                            <Link to="/about">About</Link>
+                        </li>
+                        <li>
+                            <Link to="/projects">Projects</Link>
+                        </li>
+                        <li>
+                            <Link to="/contact">Contact</Link>
+                        </li>
+                        <li>
+                            <Link to="/resume">Resume</Link>
+                        </li>
+                    </ul>
                 </nav>
             </div>
         </div>
