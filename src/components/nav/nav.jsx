@@ -6,9 +6,9 @@ import './nav.scss';
 function Nav() {
     return (
         <div className="header">
+            <a href="/">g.lanctot</a>
             <div className="wrapper">
-                <nav>
-                    <a href="/">g.lanctot</a>
+                <nav>   
                     <ul>
                         <li>
                             <Link to="/">Home</Link>
