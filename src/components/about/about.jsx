@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import './about.scss';
-import left from '../../images/chevron-left.svg';
-import right from '../../images/chevron-right.svg';
+import left from '../../images/white-left.svg';
+import right from '../../images/white-right.svg';
 
 
 function About() {
+    const [currentSlide, setCurrentSlide] = useState(0);
     const slider = [
         {
             id: '1',
@@ -26,16 +27,22 @@ function About() {
         },
         {
             id: '4',
-            title: 'Mr Traveler',
+            title: 'Mr. Traveler',
             description: 'I love getting to travel and explore this gorgeous world.  Here I am outside the Burj in Dubai.',
             img: './images/travel.JPG',
         },
     ];
+
+    const handleClick = (dir) => {
+        dir === "left"
+        ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
+        : setCurrentSlide(currentSlide < slider.length - 1 ? currentSlide + 1 : 0);
+    };
     
     return (
         <div className="about" id="about">
             
-            <div className="slider">
+            <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
                 {slider.map((data) => (
                     <div className="container">
                     <div className="item">
@@ -50,8 +57,8 @@ function About() {
                 </div>
                 ))}
             </div>    
-            <img src={left} className="arrow left" alt=""></img>
-            <img src={right} className="arrow right" alt=""></img>
+            <img src={left} className="arrow left" alt="" onClick={() => handleClick("left")}></img>
+            <img src={right} className="arrow right" alt="" onClick={()=> handleClick()}></img>
         </div>
     )
 }

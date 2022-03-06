@@ -6,6 +6,7 @@ import About from './components/about/about';
 import Resume from './components/resume/resume';
 import Nav from './components/nav/nav';
 import { Switch } from 'react-router-dom';
+import Footer from './components/footer/footer';
 import './app.scss';
 
 function App() {
@@ -31,9 +32,8 @@ function App() {
               <Resume></Resume>
             </Route>
           </Switch>
-          
         </div>
-        
+        <Footer></Footer>
       </Router>
     </div>
   );
