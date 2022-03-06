@@ -5,6 +5,20 @@
     justify-content: center;
     position: relative;
 
+    .arrow {
+        height: 70px;
+        position: absolute;
+
+        &.left {
+            left: 100px;
+            cursor: pointer;
+        }
+
+        &.right {
+            right: 100px;
+        }
+    }
+
     .slider {
         display: flex;
         position: absolute;
