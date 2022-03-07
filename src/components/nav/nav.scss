@@ -4,13 +4,13 @@
     top: 0;
     display: flex;
     justify-content: space-between;
-    
+    background-color: #b2b09b;
 
     a {
         text-decoration: none;
-        color: black;
+        color: white;
         font-size: 27px;
-        padding: 10px;
+        padding: 15px;
     }
 
     .wrapper {
@@ -19,7 +19,7 @@
 
             a {
                 text-decoration: none;
-                color: black;
+                color: white;
                 font-size: 27px;
             }
             ul {
@@ -27,7 +27,7 @@
 
                 li {
                     list-style: none;
-                    padding: 10px;
+                    padding: 15px;
                 }
             }   
         }

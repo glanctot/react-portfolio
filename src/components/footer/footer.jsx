@@ -20,8 +20,6 @@ function Footer() {
                         <img src={insta} alt="GitHub Logo"></img>  
                     </a>
                 </div>
-                
-                
             </footer>    
         </div>
     )

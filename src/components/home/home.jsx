@@ -1,5 +1,6 @@
 import React from "react";
-import home from '../../images/home-photo-edit.jpg';
+import home from '../../images/home.png';
+import './home.scss';
 
 function Home() {
     return (
@@ -10,9 +11,11 @@ function Home() {
                 </div>
             </div>    
             <div className="right">
-                <h2>Welcome Everyone!</h2>    
-                <h1>I'm Greg.</h1>
-                <h4>Full Stack Web Developer</h4>
+                <div className="text">
+                    <h2>Welcome Everyone!</h2>    
+                    <h1>I'm Greg.</h1>
+                    <h4>A Full Stack Web Developer living in Minneapolis</h4>
+                </div>
             </div>
         </div>
     )
