@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.cd10d352.css",
-    "main.js": "/react-portfolio/static/js/main.d145aac2.js",
+    "main.css": "/react-portfolio/static/css/main.f92d56d4.css",
+    "main.js": "/react-portfolio/static/js/main.dbb948b4.js",
+    "static/media/family.JPG": "/react-portfolio/static/media/family.e58db90f8070fd440864.JPG",
+    "static/media/gus.jpg": "/react-portfolio/static/media/gus.465fab9658725cf12767.jpg",
+    "static/media/golf.PNG": "/react-portfolio/static/media/golf.ffe85b4450626b04c874.PNG",
     "static/media/home.png": "/react-portfolio/static/media/home.9324e745b40552ce97db.png",
     "static/media/run.JPG": "/react-portfolio/static/media/run.c8d3b235143ee02f6f0e.JPG",
+    "static/media/travel.JPG": "/react-portfolio/static/media/travel.19adb1960ac3b70b87c9.JPG",
     "static/media/beyond.JPG": "/react-portfolio/static/media/beyond.ad01ffb332b113a56f50.JPG",
     "static/media/weather.JPG": "/react-portfolio/static/media/weather.88d44c8a5d181c9a06d8.JPG",
     "static/media/budget.JPG": "/react-portfolio/static/media/budget.3bdaeb18839dffffc859.JPG",
@@ -13,14 +17,13 @@
     "static/media/github.svg": "/react-portfolio/static/media/github.678001e7b52306104fc34f63060f144b.svg",
     "static/media/instagram.svg": "/react-portfolio/static/media/instagram.58343ea253613167c66a1909840b2d30.svg",
     "static/media/linkedin.svg": "/react-portfolio/static/media/linkedin.40a13fa6d0f4d2d559f3eee07c5c359e.svg",
-    "static/media/send.svg": "/react-portfolio/static/media/send.fab9d9661d8d41abd207906755d8209e.svg",
     "static/media/white-left.svg": "/react-portfolio/static/media/white-left.3cc88230eb80003888f3d01477975099.svg",
     "static/media/white-right.svg": "/react-portfolio/static/media/white-right.7b4528b09378cb8ed798614dd41779db.svg",
-    "main.cd10d352.css.map": "/react-portfolio/static/css/main.cd10d352.css.map",
-    "main.d145aac2.js.map": "/react-portfolio/static/js/main.d145aac2.js.map"
+    "main.f92d56d4.css.map": "/react-portfolio/static/css/main.f92d56d4.css.map",
+    "main.dbb948b4.js.map": "/react-portfolio/static/js/main.dbb948b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd10d352.css",
-    "static/js/main.d145aac2.js"
+    "static/css/main.f92d56d4.css",
+    "static/js/main.dbb948b4.js"
   ]
 }
