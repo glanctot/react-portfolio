@@ -6,8 +6,9 @@ import weather from '../../images/weather.JPG';
 import run from '../../images/run.JPG';
 import tech from '../../images/tech.JPG';
 import password from '../../images/password.JPG';
+import dinder from '../../images/dinder.JPG';
 
-
+// http://dinder-dog.herokuapp.com/ dinder
 // https://lit-dawn-92675.herokuapp.com/ budget tracker
 // https://pacific-journey-17528.herokuapp.com/ beyond
 // https://glanctot.github.io/weather-dashboard/ weather
@@ -61,11 +62,11 @@ function Projects() {
                     </div>   
                 </div>
                 <div className="item">
-                    <img src={password} alt="Password Generator" />
+                    <img src={dinder} alt="Dinder" />
                     <div className="text">
-                        <h3>Password Generator</h3>  
-                        <a href="https://glanctot.github.io/password-generator/">Website</a>
-                        <a href="https://github.com/glanctot/password-generator">GitHub</a>
+                        <h3>Dinder</h3>  
+                        <a href="http://dinder-dog.herokuapp.com/">Website</a>
+                        <a href="https://github.com/mnshaun24/doggy-days">GitHub</a>
                     </div>
                 </div>    
             </div>
